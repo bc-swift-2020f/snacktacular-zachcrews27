@@ -22,6 +22,10 @@
 		921027B2254F782B003EE4E2 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921027B1254F782B003EE4E2 /* UIViewController+alert.swift */; };
 		921027B4254F7D27003EE4E2 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921027B3254F7D27003EE4E2 /* Spots.swift */; };
 		921027B6254FA4B7003EE4E2 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921027B5254FA4B7003EE4E2 /* APIKeys.swift */; };
+		925193EB2555F4CD00CEBFAC /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193EA2555F4CD00CEBFAC /* ReviewTableViewController.swift */; };
+		925193ED25576D5800CEBFAC /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193EC25576D5700CEBFAC /* Review.swift */; };
+		925193EF2557B1C500CEBFAC /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193EE2557B1C500CEBFAC /* Reviews.swift */; };
+		925193F125586A2200CEBFAC /* SpotReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193F025586A2200CEBFAC /* SpotReviewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		921027B1254F782B003EE4E2 /* UIViewController+alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		921027B3254F7D27003EE4E2 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
 		921027B5254FA4B7003EE4E2 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		925193EA2555F4CD00CEBFAC /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
+		925193EC25576D5700CEBFAC /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		925193EE2557B1C500CEBFAC /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		925193F025586A2200CEBFAC /* SpotReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewTableViewCell.swift; sourceTree = "<group>"; };
 		EF4FB51B2AA1D4EC170E96F2 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,10 +99,14 @@
 				92102795254F1E7A003EE4E2 /* SceneDelegate.swift */,
 				921027AF254F6B7A003EE4E2 /* Spot.swift */,
 				921027B3254F7D27003EE4E2 /* Spots.swift */,
+				925193EC25576D5700CEBFAC /* Review.swift */,
+				925193EE2557B1C500CEBFAC /* Reviews.swift */,
 				92102797254F1E7A003EE4E2 /* LoginViewController.swift */,
 				921027A9254F4725003EE4E2 /* SpotListViewController.swift */,
 				921027AB254F4D53003EE4E2 /* SpotTableViewCell.swift */,
 				921027AD254F52F9003EE4E2 /* SpotDetailViewController.swift */,
+				925193F025586A2200CEBFAC /* SpotReviewTableViewCell.swift */,
+				925193EA2555F4CD00CEBFAC /* ReviewTableViewController.swift */,
 				921027B1254F782B003EE4E2 /* UIViewController+alert.swift */,
 				921027B5254FA4B7003EE4E2 /* APIKeys.swift */,
 				92102799254F1E7A003EE4E2 /* Main.storyboard */,
@@ -249,12 +261,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925193EF2557B1C500CEBFAC /* Reviews.swift in Sources */,
 				921027AA254F4725003EE4E2 /* SpotListViewController.swift in Sources */,
 				92102798254F1E7A003EE4E2 /* LoginViewController.swift in Sources */,
 				92102794254F1E7A003EE4E2 /* AppDelegate.swift in Sources */,
 				921027AE254F52F9003EE4E2 /* SpotDetailViewController.swift in Sources */,
+				925193EB2555F4CD00CEBFAC /* ReviewTableViewController.swift in Sources */,
+				925193ED25576D5800CEBFAC /* Review.swift in Sources */,
 				921027B4254F7D27003EE4E2 /* Spots.swift in Sources */,
 				921027AC254F4D53003EE4E2 /* SpotTableViewCell.swift in Sources */,
+				925193F125586A2200CEBFAC /* SpotReviewTableViewCell.swift in Sources */,
 				921027B6254FA4B7003EE4E2 /* APIKeys.swift in Sources */,
 				921027B0254F6B7A003EE4E2 /* Spot.swift in Sources */,
 				92102796254F1E7A003EE4E2 /* SceneDelegate.swift in Sources */,
