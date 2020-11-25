@@ -32,6 +32,10 @@
 		925193F92561B7B600CEBFAC /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193F82561B7B600CEBFAC /* Photo.swift */; };
 		925193FB2561D9DE00CEBFAC /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193FA2561D9DE00CEBFAC /* Photos.swift */; };
 		925193FD2561DBDB00CEBFAC /* SpotPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925193FC2561DBDB00CEBFAC /* SpotPhotoCollectionViewCell.swift */; };
+		925194B7256E1CC300CEBFAC /* SnackUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925194B6256E1CC300CEBFAC /* SnackUser.swift */; };
+		925194B9256E266700CEBFAC /* SnackUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925194B8256E266700CEBFAC /* SnackUserViewController.swift */; };
+		925194BB256E26A200CEBFAC /* SnackUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925194BA256E26A200CEBFAC /* SnackUserTableViewCell.swift */; };
+		925194BD256E282900CEBFAC /* SnackUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925194BC256E282900CEBFAC /* SnackUsers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +67,10 @@
 		925193F82561B7B600CEBFAC /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		925193FA2561D9DE00CEBFAC /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 		925193FC2561DBDB00CEBFAC /* SpotPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		925194B6256E1CC300CEBFAC /* SnackUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUser.swift; sourceTree = "<group>"; };
+		925194B8256E266700CEBFAC /* SnackUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUserViewController.swift; sourceTree = "<group>"; };
+		925194BA256E26A200CEBFAC /* SnackUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUserTableViewCell.swift; sourceTree = "<group>"; };
+		925194BC256E282900CEBFAC /* SnackUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUsers.swift; sourceTree = "<group>"; };
 		EF4FB51B2AA1D4EC170E96F2 /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +123,8 @@
 				925193EE2557B1C500CEBFAC /* Reviews.swift */,
 				925193F82561B7B600CEBFAC /* Photo.swift */,
 				925193FA2561D9DE00CEBFAC /* Photos.swift */,
+				925194B6256E1CC300CEBFAC /* SnackUser.swift */,
+				925194BC256E282900CEBFAC /* SnackUsers.swift */,
 				92102797254F1E7A003EE4E2 /* LoginViewController.swift */,
 				921027A9254F4725003EE4E2 /* SpotListViewController.swift */,
 				921027AB254F4D53003EE4E2 /* SpotTableViewCell.swift */,
@@ -123,6 +133,8 @@
 				925193FC2561DBDB00CEBFAC /* SpotPhotoCollectionViewCell.swift */,
 				925193EA2555F4CD00CEBFAC /* ReviewTableViewController.swift */,
 				925193F62561B0B300CEBFAC /* PhotoViewController.swift */,
+				925194B8256E266700CEBFAC /* SnackUserViewController.swift */,
+				925194BA256E26A200CEBFAC /* SnackUserTableViewCell.swift */,
 				921027B1254F782B003EE4E2 /* UIViewController+alert.swift */,
 				925193F22561959A00CEBFAC /* UIView+addBorder.swift */,
 				925193F42561962900CEBFAC /* UIBarButtonItem+hide.swift */,
@@ -293,10 +305,14 @@
 				925193F72561B0B400CEBFAC /* PhotoViewController.swift in Sources */,
 				925193F125586A2200CEBFAC /* SpotReviewTableViewCell.swift in Sources */,
 				925193F92561B7B600CEBFAC /* Photo.swift in Sources */,
+				925194BB256E26A200CEBFAC /* SnackUserTableViewCell.swift in Sources */,
+				925194B9256E266700CEBFAC /* SnackUserViewController.swift in Sources */,
 				921027B6254FA4B7003EE4E2 /* APIKeys.swift in Sources */,
 				921027B0254F6B7A003EE4E2 /* Spot.swift in Sources */,
 				92102796254F1E7A003EE4E2 /* SceneDelegate.swift in Sources */,
+				925194B7256E1CC300CEBFAC /* SnackUser.swift in Sources */,
 				925193FD2561DBDB00CEBFAC /* SpotPhotoCollectionViewCell.swift in Sources */,
+				925194BD256E282900CEBFAC /* SnackUsers.swift in Sources */,
 				921027B2254F782B003EE4E2 /* UIViewController+alert.swift in Sources */,
 				925193F32561959B00CEBFAC /* UIView+addBorder.swift in Sources */,
 			);
